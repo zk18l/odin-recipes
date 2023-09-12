@@ -1,16 +1,16 @@
 .coloring.recipe {
-    font-size: 60px;
+    font-size: 80px;
 }
 .coloring {
     color:rgb(247, 197, 79);
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.889);
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
+    font-size: 45px;
 }
 
 #word {
-    font-size: 25px;
+    font-size: 35px;
     color:rgb(239, 184, 56);
 }
 .center {
@@ -21,12 +21,12 @@
 }
 
 .text {
-    font-size:20px;
+    font-size:25px;
     line-height: 1.5;
     font-family:'Courier New', Courier, monospace;
 }
 #bold {
-    font-size: 25px;
+    font-size: 30px;
     font: bold;
 }
 
@@ -34,3 +34,18 @@
     color: red;
 }
 
+
+
+
+
+.coloring-t.recipe {
+        font-size: 80px;
+}
+
+.coloring-t {
+    color: rgb(255, 227, 175);
+    background-color: rgba(0, 0, 0, 0.741);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+}
