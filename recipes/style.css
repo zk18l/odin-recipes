@@ -1,51 +1,70 @@
-.coloring.recipe {
-    font-size: 80px;
-}
-.coloring {
-    color:rgb(247, 197, 79);
-    background-color: rgba(0, 0, 0, 0.889);
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 45px;
-}
-
-#word {
-    font-size: 35px;
-    color:rgb(239, 184, 56);
-}
-.center {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-}
-
-.text {
-    font-size:25px;
-    line-height: 1.5;
-    font-family:'Courier New', Courier, monospace;
-}
-#bold {
+* {
+    font-family: Arial, Helvetica;
     font-size: 30px;
-    font: bold;
+    box-sizing: border-box;
+    margin: 8px;
 }
-
-#important {
-    color: red;
-}
-
-
-
-
-
-.coloring-t.recipe {
-        font-size: 80px;
-}
-
-.coloring-t {
-    color: rgb(255, 227, 175);
-    background-color: rgba(0, 0, 0, 0.741);
-    text-align: center;
+.title{
+    font-size: 50px;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 45px;
+    text-align: center;
+    height: 120px;  
+    width: 400px;
+    padding: 25px 30px 10px;
+    border-radius: 80px;
+    margin: 30px auto  120px;
+}
+.subsection{
+    font-size: 40px;
+    border-radius: 5px 80px 40px 5px;
+    padding: 20px;
+    margin: 30px 10px;
+    width:280px;
+    height: 100px;
+}
+.subsection.big{
+    width: 420px;
+    }
+
+.mac{
+    color: #c50909;
+    background-color: #feeeb9 ;
+}
+.mac .title{
+    color: #FFD700 ;
+    background-color: #FF6347;
+    border: 8px double #FFD700;
+}
+.mac .subsection{
+    border: 8px dotted #979700;
+}
+.kash{
+    color: #8B4513;
+    background-color: #F5F5DC;
+}
+.kash .title{
+    color: #FFA500 ;
+    background-color: #8B4513;
+    border: 8px double #FFA500;
+    width: 600px;
+}
+.kash .subsection{
+    border: 8px dashed #FFA500;
+    
+}
+.cake{
+    color: #3E2723;
+    background-color: #FFD4D4;
+}
+.cake .title{
+    color: #3E2723 ;
+    background-color: #E0E0E0;
+    border: 8px double #3E2723;
+    width: 500px;
+}
+.cake .subsection{
+    border: 8px groove #909090;
+}
+.ending{
+    font-size: 40px;
 }
